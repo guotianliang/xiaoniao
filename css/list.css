@@ -1,0 +1,137 @@
+
+body{
+	font-family: STKaiti, KaiTi_GB2312, "华文楷体", "宋体", Arial, Helvetica, sans-serif;
+}
+.big{
+	width: 100%;	
+	overflow: hidden;
+	background: #f1f2f6;
+}
+.center{
+	width: 1100px;
+	margin: 0 auto;
+}
+.tit{
+	margin-top: 100px;
+	text-align: center;
+}
+.tit h1{
+	line-height: 60px;   
+	font-size: 54px;
+	color: #311759;
+}
+.tit h2{
+	font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 6px;
+    color: #311759;
+}
+.pen{
+	width: 200px;
+	color: #311759;
+    font-size: 30px;
+    background: url(../img/pen_line_long.png) no-repeat 0 58px;
+    height: 60px;
+    float: left;
+    position: relative;
+}
+.pen span{
+	width: 61px;
+    height: 58px;
+    display: block;
+    position: absolute;
+    right: 0px;
+    background: url(../img/images/pen_list.png) no-repeat;
+    top: 7px;
+    cursor: pointer;
+}
+.pen span:hover{
+	background-position: -61px 0;
+}
+.center-item{
+	width: 520px;
+    height: 202px;
+    float: left;
+    background: #fff;
+    padding: 36px 0 0 20px;
+    margin: 20px 20px 30px 0;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid transparent;
+}
+.center-item:hover{
+	box-shadow: 0px 3px 10px #ccc;
+	border: 1px solid black;
+	transition: 0.2s;
+	transform: translateY(-6px);
+}
+.cen-img{
+	height: 168px;
+    width: 260px;
+    overflow: hidden;
+    float: left;
+    margin-right: 17px;
+}
+.center-item-left{
+	width: 221px;
+	float: left;
+}
+.center-item-left h2{
+	font-size: 20px;
+    color: #454548;
+    line-height: 26px;
+    max-height: 53px;
+    overflow: hidden;
+    padding-top: 15px;
+}
+.date{
+	color: #6b6a6f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-top: 2px;
+}
+.center-item-left p{
+	padding-top: 8px;
+    color: #47464a;
+    line-height: 25px;
+    max-height: 75px;
+    overflow: hidden;
+    font-family: KaiTi_GB2312;
+    letter-spacing: 0px;
+}
+.center-main{
+	width: 1150px;
+	overflow: hidden;
+	margin-top:50px;
+	}
+.scroollon{
+	margin-top: 40px;
+	text-align: center;
+}
+.list-more{
+	height: 58px;
+    width: 58px;
+    background: url(../img/images/lis_more_btn_bg.png) no-repeat 0 -58px;
+    margin: 15px auto 130px;
+    cursor: pointer;
+}
+.list-more:hover{
+	 background: url(../img/images/lis_more_btn_bg.png) no-repeat 0 0px;
+	 transition: 0.3s;
+}
+.center-item>img{
+	position: absolute;
+	top: 36px;
+	left: 0;
+}
+.center-item:hover .sanjiao{
+	left: 38px;
+	transition:left 0.5s;
+}
+.footer-img{
+    background:#f1f2f6 url(../img/images/map_bottomimg.png) top center no-repeat;
+    height: 33px;
+    width: 100%;
+    min-width: 1100px;
+}
